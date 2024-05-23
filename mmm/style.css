@@ -1,0 +1,100 @@
+body {
+    background-color: #FDEEF4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: #7B3F61;
+    font-family: Consolas;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h2 {
+    text-align: center;
+    font-family: Consolas;
+    color: #7B3F61;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+p {
+    color: #7B3F61;
+    font-family: Consolas;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+li {
+    color: #7B3F61;
+    font-family: Consolas;
+}
+.cent {
+    text-align: center;
+}
+.sm {
+    color: #7B3F61;
+    font-family: cursive;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.inform {
+    font-size: 18px;
+    font-family: cursive;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #7B3F61;
+    text-align: right;
+}
+h3 {
+    font-family: cursive;
+    color: #7B3F61;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 400px;
+    border: 3px solid #7B3F61;
+    transition: 0.2s;
+    position: relative;
+}
+
+.product:hover {
+    border: 8px solid #C49DA3;
+}
+
+.favorite-btn {
+    background: #7B3F61;
+    border-color: #C49DA3;
+    cursor: pointer;
+    color: white;
+}
+
+.favorite {
+    color: #C49DA3;
+}
+#bonus-but {
+    padding-left: 20px;
+}
+.buttons {
+    display: flex;
+}
+.list {
+    display: flex;
+}
+
+hr {
+    border-color: #C49DA3;
+}

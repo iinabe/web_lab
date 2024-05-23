@@ -1,0 +1,93 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Магазин свечей</title>
+</head>
+
+<body background="ImagesProekt/bg.png">
+    <header>
+        <a name='top'>
+            <h1>Магазин свечей</h1>
+        </a>
+        <p>Ароматические и декоративные свечи для любого случая</p>
+        <p><b> Найдите идеальную свечу!</b></p>
+        <hr>
+        <div class="buttons">
+            <button id="show-favorites-btn">Показать избранное</button>
+            <button id="show-cult">Показать новинки</button>
+            <button id="show-other">Показать всё</button>
+        </div>
+        <div class="slider">
+            <input type="range" min="500" max="5000" value="2500" id="priceSlider">
+            <p>Цена: <span id="priceValue">5000</span></p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <br>
+            <div class="products">
+                <div class="product" border-color=#b0d1b5 data-favorite="false" data-cult="true" data-other="false" data-price='2000'>
+                      <img src="candle1.jpg" height="420" width="394px"
+                        height="192px" alt="Новинки">
+                    <h1>Свеча "Розовая романтика"</h1>
+                    <h2> Романтическая свеча с ароматом лаванды. </h2>
+
+                    <h2> 2000 рублей </h2>
+                    <button class="favorite-btn" type="button">&#9733;</button>
+                </div>
+                <div class="product" data-favorite="false" data-cult="false" data-other="false" data-price='10000'>
+                    <img src="candle2.jpg" height="400" width="394px"
+                        height="192px" alt="Обычное">
+                    <h1>Свеча "Солнечный день"</h1>
+                    <h2> Яркая и жизнерадостная свеча с ароматом цитрусовых.</h2>
+
+                    <h2> 10 000 рублей </h2>
+                    <button class="favorite-btn" type="button">&#9733;</button>
+                </div>
+                <div class="product" data-favorite="false" data-cult="false" data-other="true" data-price='50000'>
+                    <img src="candle3.jpg" height="400" width="394px"
+                        height="192px" alt="Обычное">
+                    <h1>Свеча "Нежная лилия"</h1>
+                    <h2> Изысканная свеча с ароматом белых лилий. </h2>
+                    <h2> 50000 рублей</h2>
+                    <button class="favorite-btn" type="button">&#9733;</button>
+                </div>
+                <div class="product" data-favorite="false" data-cult="true" data-other="true" data-price='100000'>
+                    <img src="candle4.jpg" height="400" width="394px"
+                        height="192px" alt="Культовое">
+                    <h1>Свеча "Осенняя сказка"</h1>
+                    <h2> Красочная свеча с ароматом хризантем и роз. </h2>
+                    <h2> 100000 рублей </h2>
+                    <button class="favorite-btn" type="button">&#9733;</button>
+                </div>
+                <div class="product" data-favorite="false" data-cult="false" data-other="true" data-price='1000'>
+                     <img src="candle5.jpg" height="400" width="394px"
+                        height="192px" alt="Обычное">
+                    <h1>Свеча "Праздничный свет"</h1>
+                    <h2> Сочная свеча с ароматом орхидей и альстромерий.</h2>
+                    <h2> 1000 рублей </h2>
+                    <button class="favorite-btn" type="button">&#9733;</button>
+                </div>
+                <div class="product" data-favorite="false" data-cult="true" data-other="true" data-price='10000'>
+                    <img src="candle6.jpg" height="400" width="394px"
+                        height="192px" alt="Культовое">
+                    <h1>Свеча "Весеннее пробуждение"</h1>
+                    <h2> Нежная свеча с ароматом тюльпанов и гиацинтов. </h2>
+                    <h2> 10000 рублей </h2>
+                    <button class="favorite-btn" type="button">&#9733;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script-slider.js"></script>
+</body>
+
+</html>
